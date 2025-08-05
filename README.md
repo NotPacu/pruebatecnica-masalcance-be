@@ -1,31 +1,35 @@
-# Prueba Técnica - +Alcance
+# Prueba Técnica - Backend Java
 
-Este proyecto es una prueba técnica desarrollada con Angular 15 y PrimeNG.
-
-## Tecnologías utilizadas
-
-- [Angular 15](https://angular.io/)
-- [PrimeNG](https://primeng.org/) - componentes UI
-- [PrimeIcons](https://primefaces.org/primeicons/) - íconos vectoriales
-- [Angular CLI](https://angular.io/cli)
-- [RxJS](https://rxjs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+Este proyecto es parte de una prueba técnica desarrollada con **Spring Boot 2.7.18**, utilizando Java 8 y Api REST.
 
 ---
 
-## Deploy
+## ⚙️ Tecnologías y dependencias
 
-### Requisitos previos
+- Java 1.8
+- Spring Boot 2.7.18
+- Spring Web
+- Spring Data JPA
+- SQL Server JDBC Driver
+- Lombok
+- Maven
 
-- Node.js 16.x o superior
-- Angular CLI 15.x
-- NPM o Yarn
+---
 
-### Instalación
+## 🚀 Cómo ejecutar el proyecto
 
-```bash
-# Instala las dependencias
-npm install
+### Requisitos
 
-# Ejecuta el proyecto localmente
-ng serve
+- Java 8 (JDK)
+- Maven 3.9.11
+- Base de datos SQL Server en funcionamiento
+
+### Paso a paso
+
+1. Clona el repositorio:
+
+2. Ejecuta el Script Db.sql
+
+3. Modifica las credenciales de ser necesario en el archivo resources/application.properties
+
+4. Ejecuta el main
